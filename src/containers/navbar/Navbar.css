@@ -1,0 +1,22 @@
+.nav-outer-flex{
+  
+    background: transparent;
+    height: 4em;
+    position: relative;
+    top: 0;
+    
+
+}
+.nav-links a{
+    margin: 3em;
+    font-family: var(--font-family);
+    text-decoration: none;
+    opacity: 1;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 12px;
+}
+.nav-links a:hover{
+    border-bottom: 2px solid rgb(23, 255, 243);
+}
